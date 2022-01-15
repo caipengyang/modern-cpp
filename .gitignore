@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+
+# Github runners
+actions-runner
