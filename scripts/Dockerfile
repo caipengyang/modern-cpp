@@ -7,7 +7,7 @@ RUN mkdir -p /download && cd /download && \
     mkdir -p src && cd src && git clone https://github.com/caipengyang/modern-cpp.git && ls modern-cpp && \
     cd modern-cpp/scripts && chmod +x register-runner.sh && ls /download/src/modern-cpp/scripts
 
-# RUN tail -f /download/src/modern-cpp/scripts/*
+CMD ["tail"]
 
 
 # RUN bash /download/src/modern-cpp/scripts/register-runner.sh
