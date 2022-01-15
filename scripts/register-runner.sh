@@ -16,6 +16,6 @@ tar xzf ./actions-runner-linux-x64-2.286.0.tar.gz
 
 # Create the runner and start the configuration experience
 RUNNER_ALLOW_RUNASROOT="1" ./bin/installdependencies.sh
-RUNNER_ALLOW_RUNASROOT="1" DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 ./config.sh --url https://github.com/caipengyang/modern-cpp --token AALY27DRG5WDWL5DEKCW5P3B4LAWE --unattended 
+RUNNER_ALLOW_RUNASROOT="1" DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 ./config.sh --url https://github.com/caipengyang/modern-cpp --token AALY27E4MMA75F32UIZK4PDB4LH2E --unattended 
 # Last step, run it!
 RUNNER_ALLOW_RUNASROOT="1" DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 DOTNET_SYSTEM_GLOBALIZATION_PREDEFINED_CULTURES_ONLY=false ./run.sh --unattended
