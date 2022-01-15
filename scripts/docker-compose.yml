@@ -3,6 +3,7 @@ version: '2'
 services:
   github-runner:
     image: runner
+    container_name: "gitlab-runner"
     build:
       context: ./
       dockerfile: Dockerfile
